@@ -22,7 +22,7 @@ import org.bukkit.ChatColor;
 import org.fusesource.jansi.Ansi;
 import org.fusesource.jansi.Ansi.Attribute;
 
-import com.evilmidget38.internal.com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableMap;
 
 /**
  * Utility class that maps {@link ChatColor} values to their JAnsi equivalents,

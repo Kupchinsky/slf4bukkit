@@ -67,7 +67,7 @@ import org.slf4j.helpers.FormattingTuple;
 import org.slf4j.helpers.MessageFormatter;
 import org.yaml.snakeyaml.Yaml;
 
-import com.evilmidget38.internal.com.google.common.collect.ImmutableMap;
+import com.google.common.collect.ImmutableMap;
 
 /**
  * <p>
