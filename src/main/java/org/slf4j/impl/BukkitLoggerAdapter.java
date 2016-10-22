@@ -67,7 +67,7 @@ import org.slf4j.helpers.FormattingTuple;
 import org.slf4j.helpers.MessageFormatter;
 import org.yaml.snakeyaml.Yaml;
 
-import com.google.common.collect.ImmutableMap;
+import com.evilmidget38.internal.com.google.common.collect.ImmutableMap;
 
 /**
  * <p>
@@ -352,7 +352,7 @@ public final class BukkitLoggerAdapter implements Logger {
    *
    * @param property
    *          the config property where the map exists.
-   * @param defaultValue
+   * @param defaultValues
    *          the fallback values returned by this method.
    * @return never null, always contains one mapping for each {@link Level}, and
    *         contains no null keys/values. Equal to {@code defaultValue} if the
