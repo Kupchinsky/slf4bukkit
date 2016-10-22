@@ -20,7 +20,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>info.ronjenkins</groupId>
   <artifactId>slf4bukkit</artifactId>
-  <version>0.1.5-SNAPSHOT</version>
+  <version>0.1.6-SNAPSHOT</version>
   <name>SLF4Bukkit</name>
   <description>${project.name} is an SLF4J binding that uses Bukkit's plugin logging system.</description>
   <url>http://rjenkinsjr.github.io/slf4bukkit</url>
@@ -61,7 +61,7 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.19</version>
+      <version>1.7.12</version>
     </dependency>
     <dependency>
       <groupId>ru.atisot</groupId>
@@ -78,7 +78,7 @@
     <dependency>
       <groupId>com.evilmidget38</groupId>
       <artifactId>bukkit-guice</artifactId>
-      <version>1.0.2</version>
+      <version>1.0.3</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
